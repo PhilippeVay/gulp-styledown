@@ -1,6 +1,6 @@
 {
-  "name": "gulp-styledown",
-  "version": "0.0.2",
+  "name": "@philippevay/gulp-styledown",
+  "version": "0.0.3",
   "description": "A gulp.js plugin for styledown.",
   "main": "index.js",
   "scripts": {
@@ -15,18 +15,19 @@
   "author": "st44100 <st44100@gmail.com>",
   "license": "WTFPL",
   "dependencies": {
-    "gulp-util": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-util": "latest",
     "merge": "^1.1.3",
-    "styledown": "^1.0.0",
+    "@philippevay/styledown": "^1.0.6",
     "through": "^2.3.4",
-    "through2": "^0.6.1"
+    "through2": "2.x"
   },
   "_shasum": "01e407a26e29b9a72dc4145ab75316b221dd3451",
   "_resolved": "git://github.com/st44100/gulp-styledown.git#7f9095abe7169697a0a30894ee3b33523e16d84d",
   "_from": "gulp-styledown@git://github.com/st44100/gulp-styledown.git",
   "devDependencies": {
-    "mocha": "^1.21.4",
-    "should": "^4.0.4"
+    "mocha": "5.x",
+    "should": "13.x"
   },
   "directories": {
     "test": "test"
