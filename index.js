@@ -60,7 +60,7 @@ function gulpStyledown(opt) {
     var output = new File({
       path: path.join(firstFile.cwd, opt.filename),
     });
-    
+
     if (data) {
       output.contents = new Buffer(data);
     }

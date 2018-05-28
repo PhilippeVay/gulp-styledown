@@ -26,7 +26,7 @@ describe('gulp-styledown', function() {
     var cssFilePath = path.join(__dirname, '/fixtures/styleguide.css');
 
     it('should emit error when file is Stream.', function(done) {
-      
+
       var streamFile = {
         isNull: function () { return false; },
         isStream: function () { return true; }
@@ -57,10 +57,10 @@ describe('gulp-styledown', function() {
       stream.write(md);
       stream.end();
     });
-    
+
     it('should create styleguide from *.css file.', function(done) {
       var md = createVinyl('styleguide.css');
-      
+
       var opt = {};
       var stream = gulpstyledown(opt);
 
@@ -82,7 +82,7 @@ describe('gulp-styledown', function() {
       stream.write(md);
       stream.end();
     });
-    
+
     it('should create styleguide with options.', function(done) {
       var md = createVinyl('styleguide.md');
       var opt = {
@@ -108,7 +108,7 @@ describe('gulp-styledown', function() {
       stream.write(md);
       stream.end();
     });
-    
+
     it('should return null if styledown.md is empty.', function(done) {
       var md = createVinyl('styleguide.md');
       md.contents = new Buffer('');
