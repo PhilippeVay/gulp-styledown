@@ -1,7 +1,7 @@
 {
   "name": "@philippevay/gulp-styledown",
   "version": "0.0.3",
-  "description": "A gulp.js plugin for styledown.",
+  "description": "A gulp.js plugin for styledown (fork found at @philippevay/styledown).",
   "main": "index.js",
   "scripts": {
     "test": "mocha"
