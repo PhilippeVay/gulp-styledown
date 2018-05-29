@@ -15,7 +15,7 @@
   "author": "st44100 <st44100@gmail.com>",
   "license": "WTFPL",
   "dependencies": {
-    "gulp": "^3.9.1",
+    "gulp": "^4.0.0",
     "gulp-util": "latest",
     "merge": "^1.1.3",
     "@philippevay/styledown": "^1.0.6",
