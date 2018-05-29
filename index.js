@@ -1,6 +1,6 @@
 var through2 = require('through2');
 var gutil = require('gulp-util');
-var styledown = require('styledown');
+var styledown = require('@philippevay/styledown');
 var PluginError = gutil.PluginError;
 var path = require('path');
 var fs = require('fs');

@@ -1,7 +1,7 @@
 {
   "name": "@philippevay/gulp-styledown",
   "version": "0.0.3",
-  "description": "A gulp.js plugin for styledown.",
+  "description": "A gulp.js plugin for styledown (fork found at @philippevay/styledown).",
   "main": "index.js",
   "scripts": {
     "test": "mocha"
@@ -34,10 +34,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/st44100/gulp-styledown.git"
+    "url": "https://github.com/PhilippeVay/gulp-styledown.git"
   },
   "bugs": {
-    "url": "https://github.com/st44100/gulp-styledown/issues"
+    "url": "https://github.com/PhilippeVay/gulp-styledown/issues"
   },
-  "homepage": "https://github.com/st44100/gulp-styledown"
+  "homepage": "https://github.com/PhilippeVay/gulp-styledown"
 }
