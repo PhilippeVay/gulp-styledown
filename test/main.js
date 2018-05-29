@@ -1,5 +1,5 @@
 var gulpstyledown = require('../');
-var styledown = require('styledown');
+var styledown = require('@philippevay/styledown');
 var should = require('should');
 var fs = require('fs');
 var path = require('path');
